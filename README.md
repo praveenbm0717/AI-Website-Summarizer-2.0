@@ -177,7 +177,7 @@ Display Result in Gradio
 **Praveen B M**
 
 - GitHub: https://github.com/praveenbm0717
-- LinkedIn: https://www.linkedin.com/in/praveen-b-m-2466a6181/
+- LinkedIn: https://www.linkedin.com/in/praveen-b-m-2466a6181/](https://www.linkedin.com/in/praveenbm07/
 
 ---
 
