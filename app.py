@@ -71,7 +71,9 @@ footer{
 # --------------------------
 
 with gr.Blocks(
-    title="AI Website Summarizer"
+    title="AI Website Summarizer",
+    css=CSS,
+    theme=gr.themes.Soft()
 ) as demo:
 
     gr.HTML("""
@@ -171,9 +173,8 @@ Enter a website URL and click **Generate Summary**.
 Made with ❤️ by **Praveen B M**
 """)
 
-demo.launch(
-    server_name="0.0.0.0",
-    server_port=int(os.environ.get("PORT", 7860)),
-    css=CSS,
-    theme=gr.themes.Soft()
-)
+if __name__ == "__main__":
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 7860))
+    )
